@@ -8,12 +8,12 @@ import java.io.InputStreamReader;
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
     public static void main(String[] args) throws IOException {
-        System.out.println("Bienvenido a la calculadora");
-        System.out.println("Ingresa tu primer numero");
+        System.out.println("Bienvenido a la calculadora:");
+        System.out.println("Ingresa tu primer numero:");
         num1 = Double.parseDouble(br.readLine());
-        System.out.println("Ingresa tu segundo numero");
+        System.out.println("Ingresa tu segundo numero:");
         num2 = Double.parseDouble(br.readLine());
-        System.out.println("Que operación quieres realizar");
+        System.out.println("Que operación quieres realizar:");
         System.out.println("1. +");
         System.out.println("2. -");
         System.out.println("3. *");
